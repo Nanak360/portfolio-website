@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
@@ -58,7 +58,7 @@ const Navbar = () => {
                     active === link.title ? "text-white" : "text-secondary"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
-                    setMenuOpened(!menuOpened)
+                    setMenuOpened(!menuOpened);
                     setActive(link.title);
                   }}
                 >
