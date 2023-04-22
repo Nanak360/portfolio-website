@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
-import { logo } from "../assets";
+import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
+  const [menuOpened, setMenuOpened] = useState(false);
   const [active, setActive] = useState("");
   return (
     <nav
@@ -37,6 +38,36 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+          <img
+            src={menuOpened ? close : menu}
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            onClick={() => setMenuOpened(!menuOpened)}
+          />
+          <div
+            className={`${
+              !menuOpened ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}
+          >
+            <ul className="list-none flex justify-end items-start flex-col gap-4">
+              {navLinks.map((link, i) => (
+                <li
+                  key={`${link.id}--${i}`}
+                  className={`${
+                    active === link.title ? "text-white" : "text-secondary"
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  onClick={() => {
+                    setMenuOpened(!menuOpened)
+                    setActive(link.title);
+                  }}
+                >
+                  <a href={`#${link.id}`}> {link.title} </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );
