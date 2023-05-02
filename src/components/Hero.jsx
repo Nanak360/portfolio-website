@@ -9,12 +9,12 @@ const Hero = () => {
         className={`${styles.paddingX} absolute insert-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col items-center justify-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 h-40 sm:h-80 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#fa5e1b]" />
+          <div className="w-1 h-40 sm:h-80 orange-gradient" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Nanak</span>
+            Hi, I'm <span className="text-[#fa5e1b]">Nanak</span>
           </h1>
           <span className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop full-stack applications for the web & web3
