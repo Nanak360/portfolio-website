@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import machineLearning from "./machine-learning.png";
+import fullStack from "./full-stack.png";
+import creator from "./web-content.png";
+import web3 from "./web3.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  machineLearning,
+  fullStack,
+  web3,
 };
