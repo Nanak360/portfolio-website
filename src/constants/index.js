@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  fullStack,
+  web3,
+  machineLearning,
 } from "../assets";
 
 export const navLinks = [
@@ -42,16 +45,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Full-stack Web Developer",
+    icon: fullStack,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "Web3 Developer",
+    icon: web3,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Machine Learning",
+    icon: machineLearning,
   },
   {
     title: "Content Creator",
