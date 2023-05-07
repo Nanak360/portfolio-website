@@ -27,7 +27,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import madalgos from "./company/madalgos.png";
-import tesla from "./company/tesla.png";
+import hashedin from "./company/hashedin.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,7 +57,6 @@ export {
   threejs,
   meta,
   shopify,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -65,4 +64,5 @@ export {
   fullStack,
   web3,
   madalgos,
+  hashedin,
 };
