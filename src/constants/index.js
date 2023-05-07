@@ -1,8 +1,5 @@
 import {
-  mobile,
-  backend,
   creator,
-  web,
   javascript,
   typescript,
   html,
@@ -16,7 +13,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  madalgos,
   tesla,
   shopify,
   carrent,
@@ -45,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-stack Web Developer",
+    title: "Full-stack Web Development",
     icon: fullStack,
   },
   {
-    title: "Web3 Developer",
+    title: "Web3",
     icon: web3,
   },
   {
@@ -119,14 +116,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full-Stack Web Developer",
+    company_name: "MADAlgos",
+    icon: madalgos,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Designing and Developing full stack e commerce web application.",
+      "Creating and ",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
