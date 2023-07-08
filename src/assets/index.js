@@ -11,8 +11,6 @@ import creator from "./web-content.png";
 import web3 from "./web3.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -22,7 +20,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import aws from "./tech/aws.png";
+import eth from "./tech/eth.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -48,8 +50,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -59,7 +59,11 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  angular,
+  aws,
+  eth,
+  nextjs,
+  python,
   meta,
   shopify,
   ISL,
