@@ -16,13 +16,16 @@ import {
   madalgos,
   hashedin,
   shopify,
-  carrent,
+  ISL,
   jobit,
-  tripguide,
+  Connectopia,
   threejs,
   fullStack,
   web3,
   machineLearning,
+  netflixApp,
+  NftBazar,
+  flappyBird,
 } from "../assets";
 
 export const navLinks = [
@@ -178,51 +181,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Indian Sign Language Interpreter",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI powered system that can interpret Indian (or any) Sign Language. Just train the model with any Sign Language that you want and it'll be able to interpret it.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "machine-learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "computer vision",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ISL,
+    source_code_link: "https://github.com/Nanak360/ai_asl_interpreter",
   },
   {
-    name: "Job IT",
+    name: "Connectopia",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A social media website powered by Next.js 13 (under development)",
     tags: [
       {
         name: "nextjs",
@@ -233,12 +215,71 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Connectopia,
+    source_code_link: "https://github.com/Nanak360/Connectopia",
+  },
+  {
+    name: "NFT Bazar",
+    description:
+      "An NFT marketplace built on the polygon network. Users can create, list and see all their NFTs. Used tailwind for styling the website.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: NftBazar,
+    source_code_link: "https://github.com/Nanak360/nft-marketplace",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "One-page application showcasing only Netflix front end. Displayed details are fetched from “The Movie Database” API. Hosted in Google’s Firebase.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML & CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflixApp,
+    source_code_link: "https://netflix-clone-2000.web.app/",
+  },
+  {
+    name: "Flappy Bird",
+    description:
+      "Deployed on Firebase, it is a lightweight web-based game that can run mostly on all mobile and desktop browsers",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML & CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flappyBird,
+    source_code_link: "https://myflappybird-web.web.app/",
   },
 ];
 
