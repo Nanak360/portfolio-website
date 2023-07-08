@@ -1,13 +1,12 @@
-import { motion } from "framer-motion";
+import React from "react";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { heroPerson } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen mx-auto flex pt-20">
+    <div className="h-screen mx-auto flex xl:flex-row flex-col pt-20">
       <div
-        className={`${styles.paddingX}  justify-end flex flex-row items-center gap-5 w-3/5`}
+        className={`${styles.paddingX}  justify-end flex flex-row items-center gap-5 xl:w-3/5`}
       >
         <div className="flex flex-col items-center justify-center mt-5 ">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -23,11 +22,11 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className={`${styles.paddingX}  max-w-7xl mx-auto justify-start flex items-center gap-5 w-2/5`}
+        className={`${styles.paddingX}  max-w-7xl mx-auto justify-start flex items-center gap-5 xl:w-2/5`}
       >
-        <img src={heroPerson} />
+        <img loading="lazy" src={heroPerson} />
       </div>
-    </section>
+    </div>
   );
 };
 
