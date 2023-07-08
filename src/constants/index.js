@@ -9,23 +9,21 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
-  meta,
   madalgos,
   hashedin,
-  shopify,
   ISL,
-  jobit,
   Connectopia,
-  threejs,
   fullStack,
   web3,
   machineLearning,
   netflixApp,
   NftBazar,
   flappyBird,
+  nextjs,
+  aws,
+  angular,
+  python,
+  eth,
 } from "../assets";
 
 export const navLinks = [
@@ -64,12 +62,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "JavaScript",
@@ -80,32 +82,40 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Web3 JS",
+    icon: eth,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "git",
-    icon: git,
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
 ];
 
