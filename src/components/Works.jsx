@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  video,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,11 +28,26 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
+          {image && (
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          )}
+          {!image && video && (
+            <video
+              className="w-full h-full object-cover rounded-2xl"
+              width="auto"
+              height="auto"
+              loop
+              autoPlay
+              muted
+            >
+              <source src={video} type="video/mp4" />
+              Error Message
+            </video>
+          )}
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
