@@ -45,11 +45,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am very passionate about programming. I have done a few projects which
-        includes Coding with Python and JavaScript. Currently, i am pursuing
-        B-tech Computer Science and Engineering at University of Engineering and
-        Management, Kolkata. Apart from that my interests are playing various
-        musical instruments like guitar, harmonica, tabla etc
+        I'm a Full Stack Web Developer at HashedIn. I hold a Bachelor's degree
+        in Computer Science and excel in web development. Proficient in
+        JavaScript, Node.js, React.js, and AWS, I actively contribute to
+        open-source projects and enjoy creating new ones. With a passion for
+        innovation, I thrive on challenging projects and enjoy pushing the
+        boundaries of web development. Let's connect and explore how we can
+        collaborate on exciting ventures!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, i) => (
