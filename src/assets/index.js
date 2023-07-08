@@ -29,10 +29,13 @@ import shopify from "./company/shopify.png";
 import madalgos from "./company/madalgos.png";
 import hashedin from "./company/hashedin.png";
 
-import carrent from "./carrent.png";
+import ISL from "./ISL.png";
+import netflixApp from "./netflix-app.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import Connectopia from "./Connectopia.png";
+import NftBazar from "./NftBazar.mp4";
+import flappyBird from "./flappyBird.jpeg";
 import heroPerson from "./hero-person.png";
 
 export {
@@ -59,7 +62,7 @@ export {
   threejs,
   meta,
   shopify,
-  carrent,
+  ISL,
   jobit,
   tripguide,
   machineLearning,
@@ -67,5 +70,9 @@ export {
   web3,
   madalgos,
   hashedin,
-  heroPerson
+  heroPerson,
+  netflixApp,
+  Connectopia,
+  NftBazar,
+  flappyBird,
 };
