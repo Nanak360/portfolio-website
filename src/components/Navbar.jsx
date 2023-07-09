@@ -27,8 +27,8 @@ const Navbar = () => {
             <li
               key={`${link.id}--${i}`}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === link.title ? "text-[#804dee]" : "text-secondary"
+              } hover:text-[#804dee] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}> {link.title} </a>
